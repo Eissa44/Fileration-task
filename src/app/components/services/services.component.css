@@ -1,0 +1,116 @@
+h2 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 89.5px;
+  color: var(--main-color);
+}
+
+.line-one {
+  top: -10px;
+  left: 35%;
+}
+
+.line-two {
+  top: 65px;
+  left: 35%;
+}
+
+.line-three {
+  top: -10px;
+  right: 35%;
+}
+
+.line-four {
+  top: 65px;
+  right: 35%;
+}
+
+/* Start region of Media query */
+@media (max-width: 360px) {
+  .line-one {
+    top: -10px;
+    left: 15%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 15%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 15%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 15%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .line-one {
+    top: -10px;
+    left: 20%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 20%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 20%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 20%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .line-one {
+    top: -10px;
+    left: 25%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 25%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 25%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 25%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .line-one {
+    top: -10px;
+    left: 29%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 29%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 29%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 29%;
+  }
+}

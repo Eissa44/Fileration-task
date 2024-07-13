@@ -1,0 +1,53 @@
+#about {
+  background-image: url(../../../assets/imags/5ab4770fb0ff3123d0ae01db31c409a7.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: -1;
+}
+
+.container-fluid {
+  background-color: #6d91eeb2;
+  height: 100%;
+  background-image: url(../../../assets/imags/Vector8.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.a-head,
+.w-head {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 89.5px;
+  text-align: left;
+  color: #fff;
+}
+
+.p-side-one {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+
+.w-head {
+  text-align: right;
+}
+
+.p-side-two {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: right;
+  color: #fff;
+}
+
+.help-btn {
+  background-color: #eec04b;
+  width: fit-content;
+}

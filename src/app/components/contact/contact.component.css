@@ -1,0 +1,140 @@
+h2 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 89.5px;
+  color: var(--main-color);
+}
+
+.line-one {
+  top: -15px;
+  left: 35%;
+}
+
+.line-two {
+  top: 65px;
+  left: 35%;
+}
+
+.line-three {
+  top: -15px;
+  right: 35%;
+}
+
+.line-four {
+  top: 65px;
+  right: 35%;
+}
+
+div a i {
+  color: var(--main-color);
+}
+
+.form-control {
+  background-color: #cedcff !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+button {
+  border-color: var(--main-color) !important;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  border-color: var(--main-color);
+}
+
+/* Start region of Media query */
+@media (max-width: 360px) {
+  .line-one {
+    top: -10px;
+    left: 8%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 8%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 8%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 8%;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .line-one {
+    top: -10px;
+    left: 12%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 12%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 12%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 12%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .line-one {
+    top: -10px;
+    left: 22%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 22%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 22%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 22%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .line-one {
+    top: -10px;
+    left: 25%;
+  }
+
+  .line-two {
+    top: 65px;
+    left: 25%;
+  }
+
+  .line-three {
+    top: -10px;
+    right: 25%;
+  }
+
+  .line-four {
+    top: 65px;
+    right: 25%;
+  }
+}

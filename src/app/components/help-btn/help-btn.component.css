@@ -1,0 +1,5 @@
+.help-btn {
+  background-color: var(--main-color);
+  color: #fff;
+  width: fit-content;
+}

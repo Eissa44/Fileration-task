@@ -1,0 +1,150 @@
+<div class="text-center py-4">
+  <h2 class="position-relative">
+    <svg
+      width="33"
+      height="33"
+      viewBox="0 0 33 33"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="position-absolute line-one"
+    >
+      <line
+        x1="1"
+        y1="-1"
+        x2="44.2548"
+        y2="-1"
+        transform="matrix(-0.707107 0.707107 0.707107 0.707107 33 1)"
+        stroke="#6D91EE"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+
+    <svg
+      width="33"
+      height="33"
+      viewBox="0 0 33 33"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="position-absolute line-two"
+    >
+      <line
+        x1="31.5858"
+        y1="32"
+        x2="1"
+        y2="1.41421"
+        stroke="#6D91EE"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+
+    Contact Us
+
+    <svg
+      width="33"
+      height="33"
+      viewBox="0 0 33 33"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="position-absolute line-three"
+    >
+      <line
+        x1="1.41421"
+        y1="1"
+        x2="32"
+        y2="31.5858"
+        stroke="#6D91EE"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+
+    <svg
+      width="33"
+      height="33"
+      viewBox="0 0 33 33"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="position-absolute line-four"
+    >
+      <line
+        x1="1"
+        y1="-1"
+        x2="44.2548"
+        y2="-1"
+        transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 32)"
+        stroke="#6D91EE"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+  </h2>
+</div>
+
+<section id="contact" class="my-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form [formGroup]="contactForm" (ngSubmit)="handelForm()">
+          <div class="col-lg-10">
+            <input
+              formControlName="name"
+              type="text"
+              name="fullname"
+              class="form-control rounded-pill"
+              placeholder=" Name"
+              required=""
+              data-form-input=""
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="col-lg-10 my-3">
+            <input
+              formControlName="email"
+              type="email"
+              name="email"
+              class="form-control rounded-pill"
+              placeholder="Email "
+              required=""
+              data-form-input=""
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="col-lg-10">
+            <input
+              formControlName="phone"
+              type="tel"
+              name="phone"
+              class="form-control rounded-pill"
+              placeholder="Phone"
+              required=""
+              data-form-input=""
+              autocomplete="off"
+            />
+          </div>
+          <button class="btn my-3 rounded-5">Send</button>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex flex-column ms-5">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="upskilling.eg1@gmail.com" class="btn" target="_blank">
+              <i class="fa-solid fa-envelope me-4"></i>
+              upskilling.eg1@gmail.com
+            </a>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="" class="btn" target="_blank">
+              <i class="fa-solid fa-phone me-4"></i>
+              +20 115 493 2137
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
